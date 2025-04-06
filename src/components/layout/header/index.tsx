@@ -27,17 +27,17 @@ export function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/sobre" className="hover:text-primary">
+            <Link href="/#about" className="hover:text-primary">
               Sobre
             </Link>
           </li>
           <li>
-            <Link href="/projetos" className="hover:text-primary">
+            <Link href="/#projetos" className="hover:text-primary">
               Projetos
             </Link>
           </li>
           <li>
-            <Link href="/contato" className="hover:text-primary">
+            <Link href="/#contato" className="hover:text-primary">
               Contato
             </Link>
           </li>
@@ -52,17 +52,17 @@ export function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/sobre" onClick={() => setIsOpen(false)}>
+            <Link href="/#about" onClick={() => setIsOpen(false)}>
               Sobre
             </Link>
           </li>
           <li>
-            <Link href="/projetos" onClick={() => setIsOpen(false)}>
+            <Link href="/#projetos" onClick={() => setIsOpen(false)}>
               Projetos
             </Link>
           </li>
           <li>
-            <Link href="/contato" onClick={() => setIsOpen(false)}>
+            <Link href="/#contato" onClick={() => setIsOpen(false)}>
               Contato
             </Link>
           </li>
