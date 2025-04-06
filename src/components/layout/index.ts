@@ -6,6 +6,7 @@ import { SkillsSection } from "./skills";
 import { DifferentialsSection } from "./differentials";
 import { ContactSection } from "./contact";
 import { Footer } from "./footer";
+import { CertificatesSection } from "./certificates";
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   SkillsSection,
   DifferentialsSection,
   ContactSection,
+  CertificatesSection,
 };

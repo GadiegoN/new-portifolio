@@ -1,6 +1,7 @@
 import { ParticlesComponent } from "@/components/animation/particles";
 import {
   AboutSection,
+  CertificatesSection,
   ContactSection,
   DifferentialsSection,
   HeroSection,
@@ -10,7 +11,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full flex flex-col justify-between z-50">
       <ParticlesComponent />
 
       <HeroSection />
@@ -22,6 +23,8 @@ export default function Home() {
       <SkillsSection />
 
       <DifferentialsSection />
+
+      <CertificatesSection />
 
       <ContactSection />
     </div>

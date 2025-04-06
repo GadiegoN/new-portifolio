@@ -2,7 +2,7 @@ export function AboutSection() {
   return (
     <section
       id="about"
-      className="relative z-10 flex flex-col items-center justify-center py-12 px-4 text-center max-w-3xl mx-auto"
+      className="relative z-10 flex flex-col items-center justify-center py-24 px-4 text-center max-w-3xl mx-auto"
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
         Sobre mim

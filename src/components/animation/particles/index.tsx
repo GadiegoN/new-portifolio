@@ -94,6 +94,7 @@ export function ParticlesComponent() {
         id="tsparticles"
         particlesLoaded={particlesLoaded}
         options={options}
+        z-index={-1}
       />
     );
   }
