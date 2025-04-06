@@ -14,7 +14,7 @@ export function SkillsSection() {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="bg-background/50 backdrop-blur-sm p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 border border-border flex flex-col items-center justify-center text-center hover:scale-[1.03]"
+            className="bg-background/50 p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 border border-border flex flex-col items-center justify-center text-center hover:scale-[1.03]"
           >
             <div className="mb-4">{skill.icon}</div>
             <h3 className="text-xl font-semibold text-foreground mb-2">

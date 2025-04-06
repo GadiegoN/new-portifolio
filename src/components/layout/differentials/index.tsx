@@ -23,7 +23,7 @@ export function DifferentialsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-background/50 backdrop-blur-md border border-border rounded-xl p-6 flex flex-col gap-4 hover:shadow-xl transition-all duration-300"
+              className="bg-background/50 border border-border rounded-xl p-6 flex flex-col gap-4 hover:shadow-xl transition-all duration-300"
             >
               <Icon className="w-6 h-6 text-primary" />
               <h3 className="text-lg font-semibold text-foreground">
