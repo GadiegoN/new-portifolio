@@ -1,6 +1,7 @@
 import { ParticlesComponent } from "@/components/animation/particles";
 import {
   AboutSection,
+  DifferentialsSection,
   HeroSection,
   ProjectsSection,
   SkillsSection,
@@ -18,6 +19,8 @@ export default function Home() {
       <ProjectsSection />
 
       <SkillsSection />
+
+      <DifferentialsSection />
     </div>
   );
 }
