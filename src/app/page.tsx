@@ -1,4 +1,13 @@
 import { ParticlesComponent } from "@/components/animation/particles";
+import { SectionAnimada } from "@/components/animation/scroll";
+import {
+  fadeUp,
+  zoomIn,
+  fadeRight,
+  staggerChildrenLeft,
+  staggerChildrenRight,
+  staggerChildrenScaleUp,
+} from "@/components/animation/variants";
 import {
   AboutSection,
   CertificatesSection,
@@ -16,17 +25,29 @@ export default function Home() {
 
       <HeroSection />
 
-      <AboutSection />
+      <SectionAnimada variants={fadeUp}>
+        <AboutSection />
+      </SectionAnimada>
 
-      <ProjectsSection />
+      <SectionAnimada variants={zoomIn}>
+        <ProjectsSection />
+      </SectionAnimada>
 
-      <SkillsSection />
+      <SectionAnimada variants={fadeRight}>
+        <SkillsSection />
+      </SectionAnimada>
 
-      <DifferentialsSection />
+      <SectionAnimada variants={staggerChildrenScaleUp}>
+        <DifferentialsSection />
+      </SectionAnimada>
 
-      <CertificatesSection />
+      <SectionAnimada variants={staggerChildrenRight}>
+        <CertificatesSection />
+      </SectionAnimada>
 
-      <ContactSection />
+      <SectionAnimada variants={staggerChildrenLeft}>
+        <ContactSection />
+      </SectionAnimada>
     </div>
   );
 }

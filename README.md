@@ -6,7 +6,7 @@ Este é o meu portfólio pessoal, desenvolvido com foco em performance, animaç�
 
 ## ✨ Tecnologias Utilizadas
 
-- [Next.js 14](https://nextjs.org/) com App Router
+- [Next.js 15](https://nextjs.org/) com App Router
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/) (animações)
