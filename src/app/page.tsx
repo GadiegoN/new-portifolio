@@ -11,7 +11,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="relative w-full flex flex-col justify-between z-50">
+    <div className="relative w-full flex flex-col justify-between">
       <ParticlesComponent />
 
       <HeroSection />

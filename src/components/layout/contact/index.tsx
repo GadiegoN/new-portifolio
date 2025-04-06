@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Linkedin, Phone, Instagram } from "lucide-react";
+import { Mail, Linkedin, Phone, Instagram, File } from "lucide-react";
 import Link from "next/link";
 import { INFOS } from "@/data/infos";
 
@@ -56,6 +56,15 @@ export function ContactSection() {
         >
           <Instagram size={18} />
           @gadiego_front
+        </Link>
+        <Link
+          href="/curriculo.pdf"
+          target="_blank"
+          download
+          className="flex items-center gap-2 text-muted-foreground hover:text-primary transition"
+        >
+          <File size={18} />
+          Baixar Currículo
         </Link>
       </div>
     </section>
