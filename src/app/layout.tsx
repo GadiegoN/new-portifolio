@@ -2,11 +2,18 @@ import { Footer, Header } from "@/components/layout";
 import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Metadata } from "next";
 
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
 });
+
+export const metadata: Metadata = {
+  title: "Gadiego Nogueira - Portfólio",
+  description:
+    "Portfólio de Gadiego Nogueira, desenvolvedor front-end e mobile.",
+};
 
 export default function RootLayout({
   children,
